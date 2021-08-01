@@ -1,0 +1,681 @@
+@media only screen and (max-width: 1250px) 
+{
+	body {
+		transform: scale(1);
+	}
+	
+	#leftbox, #top {
+		margin-left: 100px;
+	}
+	
+	.material-icons {
+		left: 120px;
+	}
+	
+	.markunread_mailbox {
+		left: 365px;
+	}
+}
+
+@media only screen and (max-width: 1200px) 
+{
+	body {
+		transform: scale(0.95);
+	}
+	
+	#leftbox, #top {
+		margin-left: 50px;
+	}
+	
+	#top {
+		margin-top: 50px;
+	}
+	
+	.material-icons {
+		left: 65px;
+	}
+	
+	.markunread_mailbox {
+		left: 315px;
+	}
+}
+
+@media only screen and (max-width: 1100px) 
+{
+	body {
+		transform: scale(0.9);
+	}
+	
+	#leftbox, #top {
+		margin-left: 10px;
+	}
+	
+	#top {
+		margin-top: 10px;
+	}
+	
+	.material-icons {
+		left: 25px;
+	}
+	
+	.markunread_mailbox {
+		left: 275px;
+	}
+}
+
+@media only screen and (max-width: 1000px) 
+{
+	body {
+		transform: scale(0.85);
+	}
+	
+	#leftbox, #top {
+		margin-left: -40px;
+	}
+	
+	#top {
+		margin-top: 10px;
+	}
+	
+	.material-icons {
+		left: -25px;
+	}
+	
+	.markunread_mailbox {
+		left: 225px;
+	}
+	
+	#rightbox {
+		text-align: center;
+		margin-right:30px;
+	}
+	
+	.line {
+		width: 325px;
+		margin-right: 20;
+	}
+	
+	#footer {
+		margin-bottom: -50px;
+	}
+}
+
+@media only screen and (max-width: 900px) 
+{
+	body {
+		transform: scale(0.75);
+	}
+	
+	#leftbox, #top {
+		margin-left: -75px;
+	}
+
+	.material-icons {
+		left: -60px;
+	}
+	
+	.markunread_mailbox {
+		left: 190px;
+	}
+	
+	#rightbox {
+		margin-right: 10px;
+	}
+	
+	#top {
+		margin-top: -50px;
+	}
+	
+	#footer {
+		margin-bottom: -100px;
+	}
+}
+
+@media only screen and (max-width: 820px) 
+{
+	body {
+		transform: scale(1);
+	}
+	
+	#flex {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.sections {
+		flex: 100%;
+		align-items: center;
+	}
+	
+	#leftbox, #top {
+		margin-left: 75px;
+	}
+	
+	#top {
+		margin-top: 50px;
+	}
+	
+	.contain {
+		width: 565px;
+	}
+	
+	.material-icons {
+		left: 90px;
+	}
+	
+	#rightbox {
+		text-align: center;
+		margin: 50px 80px 0;
+	}
+	
+	.mail {
+		top: 790px;
+	}
+
+	.call {
+		top: 895px;
+	}
+
+	.account_circle {
+		top: 1070px;
+	}
+
+	.home {
+		top: 1175px;
+	}
+
+	.location_city {
+		top: 1272px;
+	}
+
+	.public {
+		top: 1372px;
+	}
+
+	.markunread_mailbox {
+		top: 1372px;
+		left: 380px;
+	}
+	
+	#dropdown {
+		width: 275px;
+	}
+	
+	#postalcode {
+		width: 275px;
+	}
+	
+	#postal {
+		margin: -81px 0 0 290px;
+	}
+	
+	#submit {
+	  margin: 23px 0 95px 400px;
+	}
+	
+	.line {
+		width: 91%;
+		margin: 0;
+	}
+	
+	#footer {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 700px) 
+{
+	#flex {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.sections {
+		flex: 100%;
+	}
+	
+	#leftbox, #top {
+		margin-left: 12px;
+	}
+	
+	.material-icons {
+		left: 30px;
+	}
+	
+	.mail {
+		top: 800px;
+	}
+
+	.call {
+		top: 905px;
+	}
+
+	.account_circle {
+		top: 1080px;
+	}
+
+	.home {
+		top: 1185px;
+	}
+
+	.location_city {
+		top: 1282px;
+	}
+
+	.public {
+		top: 1382px;
+	}
+
+	.markunread_mailbox {
+		top: 1382px;
+		left: 320px;
+	}
+	
+	#rightbox {
+		text-align: center;
+		margin: 55px 60px 0 50px;
+		padding: 40px;
+	}
+	
+	.line {
+		width: 91%;
+		margin: 0;
+	}
+	
+	.pic {
+		margin-right: 50px;
+	}
+	
+	.qty {
+		margin: 30px 0 0 185px;
+	}
+
+}
+
+@media only screen and (max-width: 600px) 
+{
+	#flex {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.sections {
+		flex: 100%;
+	}
+	
+	#top {
+		margin-top: 32px;
+	}
+	
+	#leftbox, #top {
+		margin-left: 25px;
+	}
+	
+	.contain {
+		width: 500px;
+	}
+	
+	.material-icons {
+		left: 40px;
+	}
+	
+	.mail {
+		top: 800px;
+	}
+
+	.call {
+		top: 905px;
+	}
+
+	.account_circle {
+		top: 1080px;
+	}
+
+	.home {
+		top: 1185px;
+	}
+
+	.location_city {
+		top: 1282px;
+	}
+
+	.public {
+		top: 1382px;
+	}
+
+	.markunread_mailbox {
+		top: 1382px;
+		left: 330px;
+	}
+	
+	#dropdown {
+		width: 223px;
+	}
+	
+	#postalcode {
+		width: 213px;
+	}
+	
+	#postal {
+		margin: -81px 0 0 287px;
+	}
+	
+	#submit {
+	  margin: 23px 0 95px 340px;
+	}
+	
+	#rightbox {
+		text-align: center;
+		margin: 55px 50px 0;
+		padding: 40px 35px;
+	}
+	
+	.line {
+		width: 91%;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 550px) 
+{
+	#flex {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.sections {
+		flex: 100%;
+	}
+	
+	#top {
+		margin-top: 32px;
+	}
+	
+	#leftbox, #top {
+		margin-left: 20px;
+	}
+	
+	.contain {
+		width: 450px;
+	}
+	
+	.material-icons {
+		left: 35px;
+	}
+	
+	.mail {
+		top: 790px;
+	}
+
+	.call {
+		top: 895px;
+	}
+
+	.account_circle {
+		top: 1070px;
+	}
+
+	.home {
+		top: 1175px;
+	}
+
+	.location_city {
+		top: 1275px;
+	}
+
+	.public {
+		top: 1370px;
+	}
+
+	.markunread_mailbox {
+		top: 1370px;
+		left: 280px;
+	}
+	
+	#dropdown {
+		width: 210px;
+	}
+	
+	#postalcode {
+		width: 210px;
+	}
+	
+	#postal {
+		margin: -81px 0 0 242px;
+	}
+	
+	#submit {
+	  margin: 23px 0 95px 290px;
+	}
+	
+	#rightbox {
+		text-align: center;
+		margin: 55px 20px 0;
+		padding: 30px 0px 40px 30px;
+	}
+	
+	.line {
+		width: 91%;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 510px) 
+{
+	#flex {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.sections {
+		flex: 100%;
+	}
+	
+	#top {
+		margin-top: 32px;
+	}
+	
+	#leftbox, #top {
+		margin-left: 30px;
+	}
+	
+	#rightbox {
+		transform: scale(0.9);
+		margin: 0;
+		padding: 40px 0px;
+		text-align: center;
+	}
+	
+	.line {
+		width: 85%;
+		margin: 0 30px;
+	}
+	
+	.material-icons {
+		left: 40px;
+	}
+	
+	.mail {
+		top: 734px;
+	}
+
+	.call {
+		top: 824px;
+	}
+
+	.account_circle {
+		top: 975px;
+	}
+
+	.home {
+		top: 1065px;
+	}
+
+	.location_city {
+		top: 1150px;
+	}
+
+	.public {
+		top: 1235px;
+	}
+
+	.markunread_mailbox {
+		top: 1235px;
+		left: 232.5px;
+	}
+	
+	.items {
+		margin-left: 40px;
+	}
+	
+	.heads {
+		width: 179.85px;
+		height: 16.52px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	
+	.details {
+		width: 136.83px;
+		height: 11.27px;
+		font-size: 10px;
+		line-height: 12px;
+	}
+	
+	.contain {
+		width: 375px;
+		height: 41px;
+		text-indent: 39px;
+	}
+	
+	#dropdown {
+		width: 183px;
+		height: 41px;
+	}
+	
+	#postalcode {
+		width: 183px;
+		height: 37px;
+	}
+	
+	#postal {
+		margin: -66px 0 0 192px;
+	}
+	
+	#submit {
+	  margin: 23px 0 95px 215px;
+	}
+}
+
+@media only screen and (max-width: 440px) 
+{	
+	#top {
+		width: 120px;
+		height: 29px;
+		font-size: 24px;
+		line-height: 29px;
+	}
+	
+	#leftbox, #top {
+		margin-left: 15px;
+	}
+	
+	.material-icons {
+		left: 25px;
+	}
+	
+	.mail {
+		top: 709px;
+	}
+
+	.call {
+		top: 799px;
+	}
+
+	.account_circle {
+		top: 955px;
+	}
+
+	.home {
+		top: 1045px;
+	}
+
+	.location_city {
+		top: 1130px;
+	}
+
+	.public {
+		top: 1213px;
+	}
+
+	.markunread_mailbox {
+		top: 1213px;
+		left: 202.5px;
+	}
+	
+	#rightbox {
+		margin: 0 0 0 -7px;
+		transform: scale(0.9);
+		padding: 30px 0px 40px;
+	}
+	
+	.items {
+		margin-left: 34px;
+	}
+	
+	.line {
+		width: 85%;
+	}
+
+	.checkout-items {
+		margin-left: 30px;
+	}
+	
+	#leftbox {
+		margin-top: 0;
+	}
+	
+	.contain {
+		width: 340px;
+		height: 41px;
+		text-indent: 39px;
+	}
+	
+	#dropdown {
+		width: 163px;
+		height: 41px;
+	}
+	
+	#postalcode {
+		width: 163px;
+		height: 37px;
+	}
+	
+	#postal {
+		margin: -66px 0 0 177px;
+	}
+	
+	#submit {
+	  margin: 23px 0 95px 180px;
+	}
+}
+
+@media only screen and (max-width: 390px) 
+{
+	#leftbox, #top {
+		margin-left: 10px;
+	}
+	
+	#rightbox {
+		margin-left: -12px;
+	}
+	
+	.material-icons {
+		left: 20px;
+	}
+
+	.markunread_mailbox {
+		top: 1210px;
+		left: 198px;
+	}
+}

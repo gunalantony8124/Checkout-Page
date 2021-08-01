@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body 
+{
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	position: relative;
+	display: flexbox;
+	font-style: normal;
+}
+
+#top 
+{
+	width: 180px;
+	font-weight: 600;
+	margin: 100px 0 0 200px;
+	height: 44px;
+	font-size: 36px;
+	line-height: 44px;
+	color: #4e5150;
+}
+
+#flex 
+{
+	display: flex;
+}
+
+.sections 
+{
+	flex: 50%;
+	margin-left: 200px;
+}
+
+.heads 
+{
+	width: 180px;
+	font-weight: 600;
+	height: 22px;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 51px 0 0 0;
+	color: #333333;
+}
+
+.details 
+{
+	width: 40px;
+	height: 15px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+	color: #4f4f4f;
+}
+
+#emailaddress,
+#fullname-container,
+#city-container,
+#country-container 
+{
+	margin-top : 15px;
+}
+
+#phone,
+#address-container 
+{
+	margin-top: 20px;
+}
+
+#postal 
+{
+	margin: -81px 0 0 248px;
+}
+
+#checkbox 
+{
+	margin: 23px 0 0 -8px;
+}
+
+#submit 
+{
+	margin: 23px 0 159px 305px;
+}
+
+#submitbtn 
+{
+	width: 166px;
+	height: 54px;
+	background-color: #f2994a;
+	font-weight: 600;
+	border-radius: 12px;
+	border-style: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+::placeholder
+{
+    color: #828282;
+    font-weight: 900;
+}
+
+.material-icons 
+{
+	position: absolute;
+	left: 214px;
+	color: #828282;
+}
+
+.mail 
+{
+	top: 175px;
+}
+
+.call 
+{
+	top: 280px;
+}
+
+.account_circle 
+{
+	top: 453px;
+}
+
+.home 
+{
+	top: 558px;
+}
+
+.location_city 
+{
+	top: 658px;
+}
+
+.public 
+{
+	top: 755px;
+}
+
+.markunread_mailbox 
+{
+	top: 755px;
+	left: 465px;
+}
+
+.contain 
+{
+	font-family: "Montserrat", sans-serif;
+	margin-top: 6px;
+	border: 1px solid #828282;
+	border-radius: 12px;
+	width: 465px;
+	height: 56px;
+	text-indent: 52px;
+}
+
+#postalcode 
+{
+	width: 217px;
+	height: 52px;
+}
+
+#dropdown 
+{
+	width: 217px;
+	height: 56px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#expandmore
+{
+    background: #E0E0E0;
+    border-radius: 4px;
+}
+
+input[type ="checkbox"] 
+{
+	transform: scale(1.3);
+	margin-left: 10px;
+}
+
+input[value^="Rodney Cotton"]
+{
+    color: #333333;
+    font-weight: 600;
+}
+
+#next-time 
+{
+  	vertical-align: baseline;
+	font-size: 12px;
+	line-height: 15px;
+    color: #4F4F4F;
+    font-weight: 600;
+
+}
+
+#rightbox 
+{
+	height: 491px;
+	margin: 55px 200px 0 112px;
+	background-color: #f2f2f2;
+	border-radius: 12px;
+	padding: 30px 0px 40px 34px;
+}
+
+.items 
+{
+	text-align: left;
+	line-height: 2;
+	clear: left;
+}
+
+.pic 
+{
+	border-radius: 13px;
+	width: 134.21px;
+	height: 136.27px;
+	float: left;
+	margin-right: 19px;
+	margin-bottom: 32px;
+}
+
+.item1,
+.item2 
+{
+	margin: 0;
+	text-align: left;
+}
+
+.name 
+{
+	height: 22.21px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #4e5150;
+	margin: 0;
+}
+
+.offer-price 
+{
+	width: 82.77px;
+	height: 29.27px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #f2994a;
+}
+
+strike 
+{
+	width: 49.46px;
+	height: 17.16px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+	color: #4e5150;
+}
+
+.qty 
+{
+	margin: 30px 63px 0 155px;
+	padding: 10px 10px 14px;
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 12px;
+	width: 135px;
+	height: 52px;
+	text-align: center;
+}
+
+.quantity 
+{
+	margin: 0 20px 0;
+}
+
+.btn-no 
+{
+	border-style: none;
+	background: #e0e0e0;
+	border-radius: 4px;
+	width: 21px;
+	height: 21px;
+	color: #828282;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#hr1 
+{
+	margin-top: 95px;
+}
+
+.line 
+{
+	width: 327.06px;
+	height: 0;
+	border: 1px solid #bdbdbd;
+}
+
+.checkout 
+{
+	clear: left;
+	margin-right: 30px;
+}
+
+
+.checkout-items 
+{
+	height: 28px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+}
+
+#shipping, #total 
+{
+  text-align: right;
+  margin-left: 210px;
+}
+
+#footer 
+{
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	vertical-align: top;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 24px;
+	color: #bdbdbd;
+}
+
+a 
+{
+	text-decoration: underline;
+    font-weight: bold;
+	color: #bdbdbd;
+}
+
+

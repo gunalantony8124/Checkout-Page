@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaquery.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="images/devchallenges.png" />
+  <title>Dev challenges</title>
+</head>
+
+<body>
+  <div id="top">
+    <span>Checkout</span>
+  </div>
+
+    <div id="flex">
+      <div class="sections" id="leftbox">
+        <form id="form-name" onsubmit="JavaScript:alertZero()">
+          <div id="contact" class="heads">
+            <span>Contact infomation</span>
+          </div>
+
+          <div id="emailaddress">
+            <label for="email" class="details">E-mail</label>
+            <br>
+            <i class="material-icons mail">
+              mail
+            </i>
+            <input type="email" id="email" name="Email: " placeholder="Enter your email..." class="contain" required>
+          </div>
+
+          <div id="phone">
+            <label for="tel" class="details">Phone</label>
+            <br>
+            <i class="material-icons call">
+              call
+            </i>
+            <input type="tel" id="tel" name="Phone: " pattern="[+][0-9]{2}[0-9]{10}" placeholder="Enter your phone..."  class="contain" required>
+          </div>
+
+          <div id="address" class="heads">
+            <span>Shipping address</span>
+          </div>
+
+          <div id="fullname-container">
+            <label for="name" class="details">Full name</label>
+            <br>
+            <i class="material-icons account_circle">
+				account_circle
+            </i>
+            <input type="name" id="name" value="Rodney Cotton" placeholder="Your name..." class="contain" name="Name: " required>
+          </div>
+
+          <div id="address-container">
+            <label for="add" class="details">Address</label>
+            <br>
+            <i class="material-icons home">
+              home
+            </i>
+            <input type="text" id="add" placeholder="Your address.." class="contain" name="Address: " required>
+          </div>
+
+          <div id="city-container">
+            <label for="city" class="details">City</label>
+            <br>
+            <i class="material-icons location_city">
+				location_city
+            </i>
+            <input type="text" id="city" placeholder="Your city.." class="contain" required>
+          </div>
+
+          <div id="country-container">
+            <label for="country" class="details">Country</label>
+            <br>
+            <i class="material-icons public">
+              public
+            </i>
+            <select id="dropdown" class="contain" placeholder="Your country.." required>
+				<span class="material-icons-outlined" id="expand-more">
+				expand_more
+				</span>
+              <option disabled selected value>Your country..</option>
+              <option value="india">India</option>
+              <option value="usa">United States of America</option>
+              <option value="australia">China</option>
+			  <option value="Othercountries">Othercountries</option>
+            </select>
+          </div>
+
+          <div id="postal">
+            <label for="postalcode" class="details">Postal code</label>
+            <br>
+            <i class="material-icons markunread_mailbox">
+              markunread_mailbox
+            </i>
+            <input type="text" pattern="[0-9]*" maxlength="6"
+              placeholder="Your postal code.." id="postalcode" class="contain">
+          </div>
+
+          <div id="checkbox">
+            <label>
+              <input type="checkbox" >
+              <span id="next-time">
+                Save this information for next time
+              </span>
+            </label>
+          </div>
+
+          <div id="submit">
+            <input name="preferance" value="Continue" type="submit" id="submitbtn" />
+          </div>
+        </form>
+      </div>
+
+      <div class="sections" id="rightbox">
+
+        <div class="items">
+          <img class="pic" src="images/photo1.png">
+          <h4 class="name">Vintage Backbag</h4>
+          <p class="item1">
+            <span class="offer-price">$54.99</span>&nbsp;&nbsp;<strike>$94.99</strike>
+          </p>
+          <p class="qty">
+            <input name="preferance" value="-" type="submit" class="btn-no minus" />
+            <span class="quantity">1</span>
+            <input name="preferance" value="+" type="submit" class="btn-no plus" />
+          </p>
+        </div>
+
+        <div class="items">
+          <img class="pic" src="images/photo2.png">
+          <h4 class="name">Levi Shoes</h4>
+          <p class="item2">
+            <span class="offer-price">$74.99</span>&nbsp;&nbsp;<strike>$124.99</strike>
+          </p>
+          <p class="qty">
+            <input name="preferance" value="-" type="submit" class="btn-no minus" />
+            <span class="quantity">1</span>
+            <input name="preferance" value="+" type="submit" class="btn-no plus" />            
+          </p>
+        </div>
+
+        <hr class="line" id="hr1">
+
+        <div class="checkout">
+          <p class="checkout-items">Shipping
+            <span class="checkout-price" id="shipping">$19</span>
+          </p>
+        </div>
+
+        <hr class="line" id="hr2">
+
+        <div class="checkout">
+          <p class="checkout-items">
+            Total
+            <span class="checkout-price" id="total">$148.98</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  <div id="footer">
+    created by <a href="https://github.com/gunalantony8124">Antony gunal</a> - devChallenges.io
+  </div>
+
+</body>
+</html>
